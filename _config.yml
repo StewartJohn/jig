@@ -1,5 +1,5 @@
 # 1) Grab the URL of YOUR Google Sheet and paste Here (make sure it ends with /edit -- clean off anything #gid= and beyond)
-google_sheet: https://docs.google.com/spreadsheets/d/1EuIfY0fU7aL0jJ8wqQZrgUHw2K7h3H49p46f1EdvLkw/edit
+google_sheet: https://docs.google.com/spreadsheets/d/1iIbOYmeRenNm1Hf61Ltxliofu3ePdDP0F1J_jNhW_AM/edit
 
 # 2) Give your Jig a name
 title: Twine Jig
