@@ -3,7 +3,7 @@
 This is a Jekyll installation that uses a Google Sheet as a database, rendering the content to look like a comic strip. It is meant to be a fun way to teach the power of using Github as free project hosting service, Jekyll as a content management system, and Google Sheet as a data store.
 
 - You can view the main project website at: https://teh-jigz-up.github.io/teh-jigz-up/
-- You can view the main "jig" at: https://teh-jigz-up.github.io/jig/
+- You can view my Twine "jig" at: https://stewartjohn.github.io/jig/
 - The Google Sheet template is here: https://docs.google.com/spreadsheets/d/17PQQpUwl_uQzQeFrj4gZtQ1BphuhfFf5OYW2Neob-hs/edit
 
 To make your own copy you just:
