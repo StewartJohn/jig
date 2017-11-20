@@ -181,9 +181,6 @@ title: Teh Jigz Up
 </script>    
 
 <script type="text/javascript">
-    obj = { "name":"Welcome", "text": "Here's lots of stuff [[Page 2]]"};
-    string = obj.text;
-    document.getElementById("gamepassages").innerHTML = string;
 </script>
 
 <link rel="stylesheet" type="text/css" href="twine.css" media="screen">
@@ -191,9 +188,11 @@ title: Teh Jigz Up
 <tw-story></tw-story>
 
 <tw-storydata name="First Game" startnode="1" creator="Twine" creator-version="2.0.11" ifid="2BF8F1FD-0367-4600-AA6A-975070811D5E" format="Harlowe" options="" hidden>
+    obj = { "name":"Welcome", "text": "Here's lots of stuff [[Page 2]]"};
+    string = obj.text;
     <style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css"></style>
     <script role="script" id="twine-user-script" type="text/twine-javascript"></script>
-    <tw-passagedata pid="1" name="Welcome" tags="" position="520,153"><p id="gamepassages"></p></tw-passagedata>
+    <tw-passagedata pid="1" name="Welcome" tags="" position="520,153">string</tw-passagedata>
     <tw-passagedata pid="2" name="Page 2" tags="" position="520,153">This is the second page of the game [[Passage 3]] </tw-passagedata>
     <tw-passagedata pid="3" name="Passage 3" tags="" position="695,158">This is the 3rd passage</tw-passagedata>
 </tw-storydata>
